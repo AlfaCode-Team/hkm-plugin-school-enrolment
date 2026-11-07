@@ -1,0 +1,22 @@
+{
+    "name": "school-enrolment",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.enrolment",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "audit.trail",
+        "school.people",
+        "school.classes"
+    ],
+    "exposes": [
+        "Plugins\\SchoolEnrolment\\API\\Contracts\\SchoolEnrolmentContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "Registration, approvals, access granting, status transitions, transfers, expulsions and reintegration.",
+    "config": []
+}

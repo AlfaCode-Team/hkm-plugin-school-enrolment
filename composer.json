@@ -1,0 +1,24 @@
+{
+    "name": "alfacode-team/hkm-plugin-school-enrolment",
+    "description": "Registration, approvals, access granting, status transitions, transfers, expulsions and reintegration.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\SchoolEnrolment\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plugins\\SchoolEnrolment\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
